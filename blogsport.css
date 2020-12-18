@@ -1,9 +1,31 @@
-h1{
+
+body{
+    color:#333;
     text-align: center;
-    background-color: blueviolet;
-    color:black;
+    font-family: "Arial";
 }
 
-p{
-    color:chocolate;
+#container{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border:1px solid #ddd ;
+    margin: auto;
+}
+
+#cabecera{
+    background-color: blue;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1cm;
+    font-weight: normal;
+    font-size: 0.8cm;
 }
